@@ -1,309 +1,1003 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>nijesso sap</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
-    <link rel="stylesheet" href="web-fonts/css/fontawesome-all.min.css"/> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+	<script src="bootstrap-4.0.0/js/jquery.min.js"></script>
+	<script src="bootstrap-4.0.0/js/popper.min.js"></script>
+	<script src="bootstrap-4.0.0/js/all.js "></script>
+	<link href="dist/aos.css" rel="stylesheet">
+	<!-- main css -->
+	<link href="style.css" rel="stylesheet">
 </head>
-<body id="main-bodya">
-  <header>
-      <nav>
-          <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="#">সম্পর্কিত</a>
-              <a href="#">সার্ভিস</a>
-              <a href="#">ক্লায়েন্টদের মধ্যে</a>
-              <a href="#">যোগাযোগ</a>
-          </div>
-          <div class="font-toggle" onclick="openNav()"><i class="fas fa-bars"></i></div>
-          
-      </nav>
-    </header>
+<body>
+
+<!-- Navigation -->
+<div class="banner ">
+  <div class="nav-background">
+	<div class="container">
+		<nav class="navbar navbar-expand-md navbar-light ">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link " href="">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">About</a>
+								<!-- mega menu	 -->
+								<section class="mega-menu">
+									<div class="mega-main">
+										<div class="row">
+											<div class="col-4 mega-fast">
+												<a href="#">NEW ARRIVAL</a>
+												<a href="#">RESTOCK</a>
+												<a href="#">LIMITED</a>
+												<a href="#">REGULAR</a>
+												<a href="#">SALE</a>
+											</div>
+											<div class="col-8">
+												<div class="row mega-sceand">
+													<div class="col-4">
+														<div><img src="img/team/team1.png" alt=""></div>
+													</div>
+													<div class="col-2">
+														<h5><a href="#">-WEAR</a></h5>
+														<a href="#">NEW ARRIVAL</a>
+														<a href="#">RESTOCK</a>
+														<a href="#">LIMITED</a>
+														<a href="#">REGULAR</a>
+														<a href="#">SALE</a>
+													</div>
+													<div class="col-2">
+														<h5><a href="#">-BAG</a></h5>
+														<a href="#">NEW ARRIVAL</a>
+														<a href="#">RESTOCK</a>
+														<a href="#">LIMITED</a>
+														<a href="#">REGULAR</a>
+														<a href="#">SALE</a>
+														<a href="#">LIMITED</a>
+														<a href="#">REGULAR</a>
+														<a href="#">SALE</a>
+													</div>
+													<div class="col-2">
+														<h5><a href="#">-WEAR</a></h5>
+														<a href="#">NEW ARRIVAL</a>
+														<a href="#">RESTOCK</a>
+														<a href="#">LIMITED</a>
+														<a href="#">REGULAR</a>
+														<a href="#">SALE</a>
+													</div>
+													<div class="col-2">
+														<h5><a href="#">-WEAR</a></h5>
+														<a href="#">NEW ARRIVAL</a>
+														<a href="#">RESTOCK</a>
+														<a href="#">LIMITED</a>
+														<a href="#">REGULAR</a>
+														<a href="#">SALE</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section> 
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Servicees</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="">product</a>
+						  	<!-- mega menu	 -->
+							<section class="mega-menu">
+								<div class="mega-main">
+									<div class="row">
+										<div class="col-4 mega-fast">
+											<a href="#">NEW ARRIVAL</a>
+											<a href="#">RESTOCK</a>
+											<a href="#">LIMITED</a>
+											<a href="#">REGULAR</a>
+											<a href="#">SALE</a>
+										</div>
+										<div class="col-8">
+											<div class="row mega-sceand">
+												<div class="col-2">
+													<h5><a href="#">-SHOES</a></h5>
+													<a href="#">NEW ARRIVAL</a>
+													<a href="#">RESTOCK</a>
+													<a href="#">LIMITED</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+												</div>
+												<div class="col-2">
+													<h5><a href="#">-WEAR</a></h5>
+													<a href="#">NEW ARRIVAL</a>
+													<a href="#">RESTOCK</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+												</div>
+												<div class="col-2">
+													<h5><a href="#">-BAG</a></h5>
+													<a href="#">NEW ARRIVAL</a>
+													<a href="#">RESTOCK</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+												</div>
+												<div class="col-2">
+													<h5><a href="#">-WEAR</a></h5>
+													<a href="#">NEW ARRIVAL</a>
+													<a href="#">RESTOCK</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+												</div>
+												<div class="col-2">
+													<h5><a href="#">-WEAR</a></h5>
+													<a href="#">NEW ARRIVAL</a>
+													<a href="#">RESTOCK</a>
+													<a href="#">LIMITED</a>
+													<a href="#">REGULAR</a>
+													<a href="#">SALE</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">connect</a>
+						</li>
+					</ul>
+				</div>		
+			</div>			
+		</nav>
+	</div>
+  </div>
   
-  <main id="container"> 
-    <section class="header">
-      <div class="header-top"></div>
-      <div class="main-logo">
-        <img src="img/logo/CHARRONG_LOGO_CMYK_TRANSPARENT.png" alt="">
-      </div>
-      <div class="main-logo-fixt">
-        <img src="img/logo/CHARRONG_LOGO_CMYK_TRANSPARENT.png" alt="">
-      </div>
 
 
+	<div class="container header-top">
+		<div class="banner-text">
+			<h1 class="banner-headin">Global management
+			<span class="banner-headin-1">consulting agency</span></h1>
+			<div class="banner-para">
+				<p>Growth doesn't always go the way you expect. Our strategy consultants <br> can help you climb.</p>
+			</div>
+			<div class="banner-buttons">
+				<a href="#services" class="header-button">Get started</a>
+				<a href="#about" class="header-button1">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
 
-      <div class="square-section circle">
-          <div id="test" class="text" style="text-align:center; line-height:3.90625VW;  width:17.578125VW !important;padding:3.90625VW;"><noscript >YOUR  DESING  HERE</noscript></div>
-      </div>
+<!-- OUR SERVICES -->
+<section>
+	<div class="container">
+		<div class="container-fluid">
+			<h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" class="servise-headimg">OUR SERVICES</h2>
+			<p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" class="servise-perag">Our management consulting services focus on our clients' most critical issues and opportunities. We <br>
+			 have proven a multiplier effect from optimizing the sum of the parts, not just the individual pieces.</p>
+		 <div class="row">
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service1.png">
+				<h4>Performance Increase</h4>
+				<hr class="servis-border">
+				<p>Enabling companies to grow revenue, improve margins and reposition quickly.</p>
+			</div>
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service2.png">
+				<h4>Customer Marketing</h4>
+				<hr class="servis-border">
+				<p>In-depth customer insights combined with economic and operational fundamentals.</p>
+			</div>
 
-          <div class="main-text-add">
-              <p>বেস্ট কোয়ালিটির টি-শার্টটি </p>
-          </div>
-          <div class="main-text-adda">
-              <p>মনের মত করে ডিজাইন </p>
-          </div>
-          <div class="main-text-addb">
-              <p>করুন  মাত্র  <span>৫০০</span>  টাকায় </p>
-          </div>
-        <div class="menu-buttom">
-          <a href="#sec1_make"><div class="main-botton">টি-শার্ট ডিজাইন</div></a>
-          <a href="#sec2_join"><div class="main-botton">বিজনেস কার্ড ডিজাইন</div></a>
-          <a href="#sec3_invite"><div class="main-botton">মগ ডিজাইন</div></a>
-          <a href="#sec3_invite"><div class="main-botton">কিভাবে কাজ করে</div></a>
-      </div>
-    </section>
-    <div id="wrapper" class="db">
-      <div id="sec_wrapper" class="show">
-        <!-- /#sec_movie -->
-        <section id="sec1_make" class="section-all">
-		 <div class="t-shart-header"><h2 style="margin: 40px; padding-top: 40px;">আপনার পছন্দের টি-শার্ট টি বাছাই করুন</h2></div>
-          <div class="steps mt100">
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 1.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-            <div class="step_item">
-              <p>STEP 2.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-              <div class="anime"></div>
-            </div>
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 3.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-          </div>
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/servic3.png">
+				<h4>Innovative Technology</h4>
+				<hr class="servis-border">
+				<p>Realizing the full potential of IT resources, investments and assets.</p>
+			</div>
 
-          <div id="top_scroll" class="show" onclick="smoothScroll(document.getElementById('second'))" style="
-          margin-top: 10px;  cursor: pointer;">
-         <a href="#sec2_join"><div class="arrow loop"><img src="img/scroll_arrow.svg" alt="↓"></div></a>
-            
-           </div>
-        </section><!-- /#sec1_make -->
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service4.png">
+				<h4>Full Transformation</h4>
+				<hr class="servis-border">
+				<p>A cross-functional effort to alter the financial, operational and strategic trajectory of a business.</p>
+			</div>
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service5.png">
+				<h4>Strategy</h4>
+				<hr class="servis-border">
+				<p>Tailored solutions that deliver results and achieve sustained growth.</p>
+			</div>
+			<div data-aos="zoom-out-up"  class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service6.png">
+				<h4>Private Equity</h4>
+				<hr class="servis-border">
+				<p>Advising investors across the entire investment life cycle.</p>
+			</div>
+	
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service7.png">
+				<h4>Digital</h4>
+				<hr class="servis-border">
+				<p>Deliver on core strategy, delight customers and operate smarter and faster.</p>
+			</div>
+	
+			<div data-aos="zoom-out-up" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 center">
+				<img src="img/service/service8.png">
+				<h4>Results Delivery</h4>
+				<hr class="servis-border">
+				<p>Predicting, measuring and managing risk associated with change management.</p>
+			</div>
+		 </div>
+		</div>
+	</div>
+</section>
 
-        <section id="sec2_join"class="section-all">
-           <div class="t-shart-header"><h2 style=" padding-top: 40px;">আপনার পছন্দের কার্ডটি বাছাই করুন </h2></div>
-          <div class="steps">
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 1.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-            <div class="step_item">
-              <p>STEP 2.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-              <div class="anime"></div>
-            </div>
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 3.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-          </div>
-          <div id="top_scroll" class="show" onclick="smoothScroll(document.getElementById('second'))" style="
-          margin-top: 10px; cursor: pointer;">
-            <a href="#sec3_invite"><div class="arrow loop"><img src="img/scroll_arrow.svg" alt="↓"></div></a>
-       
-           </div>
-        </section><!-- /#sec2_join -->
+<!-- CONTACT US -->
+<section class="contack-us-main">
+	<div class="contack-us">
+		<div class="container">
+			<div class="container-fluid">
+				<h2 data-aos="fade-down">CONTACT US FOR A FREE, NO OBLIGATION CONFIDENTIAL  EXPLORATION OF YOUR NEEDS</h2>
+				<div data-aos="fade-up" class="contack-bottom"><a class="button button-primary center" href="#contact">Contact Us</a></div>
+			</div>
+		</div>
+	</div>
+</section>
 
-        <section id="sec3_invite" class="section-all">
-		 <div class="t-shart-header"><h2>আপনার পছন্দের মগটি বাছাই করুন</h2></div>
-          <div class="steps">
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 1.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-            <div class="step_item">
-              <p>STEP 2.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-              <div class="anime"></div>
-            </div>
-            <div class="step_item">
-              <div class="anime"></div>
-              <p>STEP 3.<br>আমার সোনার বাংলা আমি তোমায় ভালবাসি</p>
-            </div>
-          </div>
-		  
-			
-      <div id="top_scroll" class="show last-show" onclick="smoothScroll(document.getElementById('second'))" >
-          <a href="#container"><div class="arrow loop"><img src="img/scroll_arrow.svg" alt="↓"></div></a>
-     
-       </div>
-        </section><!-- /#cnt_top -->
-        </section><!-- /#sec3_invite -->
+<!-- ABOUT US -->
+<section class="about-us-main">
+	<div class="container">
+		<div class="container-fluid">
+			<h2 data-aos="fade-down" class="center">ABOUT US</h2>
+			<p  data-aos="fade-down"  class="about-header-para">SKOKOV is one of the world's leading management consulting firms. We care for our clients' 
+			business as <br> our own, they know we're in this together.<p>
+			<div class="row ">
+				<div  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  class="col-md-12 col-lg-6 col-xl-6 about-us-fast">
+					<h3>WHAT WE DO</h3>
+					<hr class="about-us-border">
+					<p class="about-para">When someone asks what we do SKOKOV, it's tempting to point out our four-decade track record for 
+						helping to transform the world's great companies into sharper, smarter, better versions of 
+						themselves. It's true, our mission is to help management teams create such high levels of
+						 economic value that together we redefine our respective industries.
+					</p>
+					<p class="about-para">We work with top executives to help them make better decisions, convert those decisions to actions,
+						 and deliver the sustainable success they desire. For forty years, we've been passionate about 
+						 achieving better results for our clients-results that go beyond financial and are uniquely tailored, 
+						 pragmatic, holistic, and enduring.
+					</p >
+					<p class="about-para">We advise global leaders on their most critical issues and opportunities: strategy, marketing, organization, 
+						operations, technology, transformations and mergers & acquisitions, across all industries and geographies.
+					</p>
+					<p class="about-para">Our unique approach to traditional change management, called Results Delivery©, helps clients measure and manage 
+						risk and overcome the odds to realize results.
+					</p>
+				</div>
+				<div data-aos="fade-left" data-aos-offset="400" data-aos-easing="ease-in-sine"  class="col-md-12 col-lg-6 col-xl-6 about-us-fast">
+				  <h3>OUR CLIENTS</h3>
+				  <hr class="about-us-border">
+				  <div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 col-xl-4 client-img"><img src="img/client/cline1.png" alt=""></div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 col-xl-4 client-img"><img src="img/client/cline2.png" alt=""></div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 client-img"><img src="img/client/cline3.png" alt=""></div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 col-xl-4 client-img"><img src="img/client/cline4.png" alt=""></div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 col-xl-4 client-img"><img src="img/client/cline5.png" alt=""></div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-4 col-xl-4 client-img"><img src="img/client/cline6.png" alt=""></div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-      </div><!-- /#sec_wrapper -->
+<!-- OUR TEAM -->
+<section  class="our-team">
+	<div  class="container">
+		<div class="container-fluid">
+			<div class="our-team-heading">
+				<h2>OUR TEAM</h2>
+				<hr>
+			</div>
+			<div class="row">
+				<!-- team-1 -->
+				<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team1.png" alt="">
+					<div class="team-1">
+						<h2>Click kan</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team1.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			   </div>
 
-    </div><!-- /#wrapper -->
-  </main><!-- /#container -->
+               <!-- team-2 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team2.png" alt="">
+					<div class="team-1">
+						<h2>CLARK KENT</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team2.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+             <!-- team-3 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team3.png" alt="">
+					<div class="team-1">
+						<h2>Click kan</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">Rayhan</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team3.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <!-- team-4 -->
+			   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team4.png" alt="">
+					<div class="team-1">
+						<h2>CLARK KENT</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team4.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- team-5 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team5.png" alt="">
+					<div class="team-1">
+						<h2>CLARK KENT</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+						<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team5.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				   </div>
+				<!-- team-6-->
+				<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team6.png" alt="">
+					<div class="team-1">
+						<h2>Click kan</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+						<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team6.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- team-7 -->
+			<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+				<img src="img/team/team7.png" alt="">
+				<div class="team-1">
+					<h2>Click kan</h2>
+					<h4>Manager</h4>
+					<p>Team Leader</p>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h4>Bad Debt Manager - Team Leader</h4>
+								<div class="row">
+									<div class="col-5">
+										<img src="img/team/team7.png" alt="">
+									</div>
+									<div class="col-7">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+										eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+										nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt mollit anim id est laborum.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <!-- team-8 -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+				<img src="img/team/team8.png" alt="">
+				<div class="team-1">
+					<h2>CLARK KENT</h2>
+					<h4>Manager</h4>
+					<p>Team Leader</p>
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h4>Bad Debt Manager - Team Leader</h4>
+								<div class="row">
+									<div class="col-5">
+										<img src="img/team/team8.png" alt="">
+									</div>
+									<div class="col-7">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+										eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+										nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt mollit anim id est laborum.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- team-9 -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team9.png" alt="">
+					<div class="team-1">
+						<h2>Click kan</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">Rayhan</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team9.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- team-10 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+					<img src="img/team/team10.png" alt="">
+					<div class="team-1">
+						<h2>CLARK KENT</h2>
+						<h4>Manager</h4>
+						<p>Team Leader</p>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<h4>Bad Debt Manager - Team Leader</h4>
+									<div class="row">
+										<div class="col-5">
+											<img src="img/team/team10.png" alt="">
+										</div>
+										<div class="col-7">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+											eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+											nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+											deserunt mollit anim id est laborum.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- team-11 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+						<img src="img/team/team11.png" alt="">
+						<div class="team-1">
+							<h2>CLARK KENT</h2>
+							<h4>Manager</h4>
+							<p>Team Leader</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h4>Bad Debt Manager - Team Leader</h4>
+										<div class="row">
+											<div class="col-5">
+												<img src="img/team/team11.png" alt="">
+											</div>
+											<div class="col-7">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+												eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+												nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+												deserunt mollit anim id est laborum.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- team-12 -->
+					<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 team-img " data-toggle="modal" data-target="#exampleModalCenter">
+						<img src="img/team/team1.png" alt="">
+						<div class="team-1 ">
+							<h2>Click kan</h2>
+							<h4>Manager</h4>
+							<p>Team Leader</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title" id="exampleModalLongTitle">CLARK KENT</h2>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h4>Bad Debt Manager - Team Leader</h4>
+										<div class="row">
+											<div class="col-5">
+												<img src="img/team/team1.png" alt="">
+											</div>
+											<div class="col-7">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+												eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+												quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+												nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+												deserunt mollit anim id est laborum.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- WE BLEND -->
+<section class="we-blend">
+   <div  class="we-blend-main"> 
+		<div class="container">
+			<div class="container-fluid">
+				<a data-toggle="modal" data-target="#exampleModalCenter" href=""><div data-aos="fade-down"  class="we-blend-font"><i class="fas fa-play"></i></div></a>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title" id="exampleModalLongTitle">Rayhan</h2>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<video src="https://www.youtube.com/watch?v=he6U6QrY8nM"></video>
+							</div>
+						</div>
+					</div>
+				   </div>
+				<h2 data-aos="fade-right" >WE BLEND THE STRATEGIC WITH CREATIVE</h2>
+				<p  data-aos="fade-left">When someone asks what we do at SKOKOV, it's tempting to point out our
+				 four-decade track record for helping to transform the world's 
+				great companies into sharper, smarter, better versions of themselves.</p>
+			</div>
+		</div>
+   </div>
+</section>
+
+<!-- NEWS -->
+<section class="news">
+	<div class="container ">
+		<div class="container-fluid">
+			<div class="news-content-all"> 
+				<h2>NEWS</h2>
+				<p>Together, we find value across boundaries, develop insights to act on, and energize teams to
+					sustain success. We're passionate about always doing the right thing for our clients, our 
+					people and our communities, even if it isn't easy.
+				</p>
+			</div>
+			<div class="row ">
+				<div class="col-8 news-fast">
+					<div data-aos="fade-right"  class="row" ">
+						<div class="col-7 news-img" style="padding: 0;"><img src="img/news/news-item-01.jpg" alt=""></div>
+						<div class="col-5 newa-conten">
+							<a href="#">WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</a>
+							<p>Why old IT models are unlikely to deliver the competitive edge 
+							  that banks, insurers and wealth management firms need from technology.
+							</p>
+							<p>Posted: 19.12.2018</p>
+						</div>
+
+						<div  data-aos="fade-left" data-aos-duration="1500" class="col-12 col-auto mr-auto news-fast">
+							<div class="row">
+								<div class="col-5 newa-conten news-all" >
+									<a href="#">WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</a>
+									<p>Why old IT models are unlikely to deliver the competitive edge 
+										that banks, insurers and wealth management firms need from technology.
+									</p>
+									<p>Posted: 19.12.2018</p>
+								</div >
+								<div class="col-7 news-co-img news-img" style="padding: 0;"><img src="img/news/news-item-02.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-aos="fade-up" data-aos-duration="3000"  class="col-4 ml-auto">
+					<div class="row">
+						<div class="col-12 news-img-1" style="padding: 0;"><img src="img/news/news-item-03.jpg" alt=""></div>
+						<div class="col-12 newa-conten news-all-a">
+							<a href="#">WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</a>
+							<p>Why old IT models are unlikely to deliver the competitive edge 
+								that banks, insurers and wealth management firms need from technology.
+							</p>
+							<p>Posted: 19.12.2018</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="news-responsive">
+	<div class="container ">
+		<div class="container-fluid">
+		   <div class="news-content-all"> 
+				<h2>NEWS</h2>
+				<p>Together, we find value across boundaries, develop insights to act on, and energize teams to
+					sustain success. We're passionate about always doing the right thing for our clients, our 
+					people and our communities, even if it isn't easy.
+				</p>
+			</div>
+			<a href="#">
+				<div class="row">
+					<div class="col-12 news-respos"><img src="img/news/news-item-01.jpg" alt=""></div>
+					<div class="col-12 news-respos-content newa-conten news-all-a">
+						<h2>WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</h2> 
+						<p>Why old IT models are unlikely to deliver the competitive edge 
+							that banks, insurers and wealth management firms need from technology.
+						</p>
+						<p>Posted: 19.12.2018</p>
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="row">
+					<div class="col-12 news-respos"><img src="img/news/news-item-02.jpg" alt=""></div>
+					<div class="col-12 news-respos-content newa-conten news-all-a">
+						<h2>WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</h2> 
+						<p>Why old IT models are unlikely to deliver the competitive edge 
+							that banks, insurers and wealth management firms need from technology.
+						</p>
+						<p>Posted: 19.12.2018</p>
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div class="row">
+					<div class="col-12 news-respos"><img src="img/news/news-item-03.jpg" alt=""></div>
+					<div class="col-12 news-respos-content newa-conten news-all-a">
+						<h2>WHY FINANCIAL INSTITUTIONS NEED A NEW IT MODEL</h2> 
+						<p>Why old IT models are unlikely to deliver the competitive edge 
+							that banks, insurers and wealth management firms need from technology.
+						</p>
+						<p>Posted: 19.12.2018</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!-- footer -->
+<footer class="footer-main">
+	<div class="container">
+		<div class="container-fluid">
+			<div class="row">
+				<div  data-aos="fade-right"  class="col-xs-12 col-sm-12 col-md-6">
+					<h2>SKOKOV</h2>
+					<hr class="footer-hr">
+					<p>Thank you for your interest in SKOKOV. Please contact us using the information below. 
+						To locate contacts in the SKOKOV office closest to you, visit our office websites. 
+						To get the latest updates from SKOKOV, subscribe to a newsletter or connect with us 
+						on social media.
+					</p>
+					<ul class="footer-list">
+						<li><a href=""> <div class="footer-font"><i class="fas fa-map-marker-alt"></i></div> <span>43 GEORGIANA STREET, IDHANORY, UKRAINE</span></a></li>
+						<li><a href=""> <div class="footer-font"><i class="fas fa-mobile"></i></div> <span>+61 (03) 9541 0891</span></a></li>
+						<li><a href=""> <div class="footer-font"><i class="fas fa-location-arrow"></i></div> <span>HELLO@SKOKOVCOMPANY.COM</span></a></li>
+					</ul>
+
+				</div>
+				<div  data-aos="fade-left"  class="col-xs-12 col-sm-12 col-md-6">
+					<h2>CONTACT</h2>
+					<hr class="footer-hr">
+					<p>Please contact us using contact form below.</p>
+					<form class="footer-form">
+						<input name="name" class="fome-body" id="name" type="text" placeholder="Name">
+						<input name="email" class="fome-body" id="email" type="email" placeholder="Email">
+						<input name="subject" class="fome-body" id="subject" type="text" placeholder="Subject">
+						<textarea placeholder="Message" class="fome-body" name="message"></textarea>
+					   <input type="submit" class="fome-submit" value="Send">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
  
-<footer id="footer-section">
-  <section class="footer-fast">
-    <ul>
-      <li><a href="">About us</a></li>
-      <li><a href="">New Filght</a></li>
-      <li><a href="">Schedule</a></li>
-      <li><a href="">Click to collapse</a></li>
-      <li><a href="">Fare Sheet</a></li>
-      <li><a href="">Infomation</a></li>
-      <li><a href="">Investor Relation</a></li>
-    </ul>
-  </section>
-  <hr>
-  <section class="footer-seand">
-    <div class="footer-text">
-      <p>This is fast</p>
-      <ul>
-        <li><a href="">About us</a></li>
-        <li><a href="">New Filght</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Click to collapse</a></li>
-        <li><a href="">Fare Sheet</a></li>
-        <li><a href="">Infomation</a></li>
-        <li><a href="">Investor Relation</a></li>
-        <li><a href="">Investor Relation</a></li>
-        <li><a href="">Investor Relation</a></li>
-        <li><a href="">Investor Relation</a></li>
-
-      </ul>
-    </div>
-    <div class="footer-text">
-        <p>This is 2nd</p>
-        <ul>
-            <li><a href="">About us</a></li>
-            <li><a href="">New Filght</a></li>
-            <li><a href="">Schedule</a></li>
-            <li><a href="">Click to collapse</a></li>
-            <li><a href="">Fare Sheet</a></li>
-            <li><a href="">Infomation</a></li>
-            <li><a href="">Investor Relation</a></li>
-            <li><a href="">Investor Relation</a></li>
-            <li><a href="">Investor Relation</a></li>
-            <li><a href="">Investor Relation</a></li>
-          </ul>
-    </div>
-    <div class="footer-text">
-        <p>This is 3rd</p>
-        <ul>
-            <li><a href="">About us</a></li>
-            <li><a href="">New Filght</a></li>
-            <li><a href="">Schedule</a></li>
-            <li><a href="">Click to collapse</a></li>
-            <li><a href="">Fare Sheet</a></li>
-            <li><a href="">Infomation</a></li>
-          </ul>
-    </div>
-    <div class="footer-text">
-        <p>This is 4th</p>
-        <ul>
-            <li>
-                <a href="#">Careers</a>
-                <i class="fas fa-briefcase"></i>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-              <i class="fab fa-facebook-f"></i>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-              <i class="fab fa-twitter"></i>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-              <i class="fab fa-instagram"></i>
-            </li>
-
-          </ul>
-    </div>
-  </section>
+	<section class="footer-bottom">
+			<div class="container">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6"><p>© COPYRIGHT 2018 — ALL RIGHTS RESERVED</p></div>
+						<div class="col-xs-12 col-sm-12 col-md-6 social-icon">
+						  <ul>
+							  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</section>
+		
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<!-- type section -->
+
+<script src="dist/aos.js"></script>
 <script>
-function randomIntFromInterval(min,max)
-{
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
-
-function typeWrite(span){
-  $('#'+span).addClass('cursor')
-  var text = $('#'+span).text();
-  var randInt = 0
-  for (var i = 0; i < text.length; i++) {
-    randInt += parseInt(randomIntFromInterval(40,300));
-    var typing = setTimeout(function(y){
-      $('#'+span).append(text.charAt(y));
-    },randInt, i);
-  };
-  setTimeout(function(){
-    $('#'+span).removeClass('cursor');
-  },randInt+2500);
-}
-
-$(document).ready(function(){
-  typeWrite('test');
-});
-
+		AOS.init({
+			duration: 1000,
+		});
 </script>
-<!-- time -->
- <script>
-    var all = $( ".circle" );
-     
-    function runIt() {
-      all
-        .show( "15s" )
-        .animate({ left: "72vw" }, 4000 )
-        .animate({ top: "14vw" }, 800, function(){
-          $(".circle").hide(10000);
-          $(".main-text-add").hide(12000);
-        });
 
-   
-    }
-    runIt();
-  </script> 
-
- <!-- scroll time js -->
 <script>
-$('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
+  $('#myModal').modal(options)
 </script>
 
 
-<!-- side menu bar -->
-<script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "300px";
-    }
-    
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
- </script>
-
-
-<!-- on scroll logo  -->
-<script>
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-    if (scroll >= 20) {
-        $(".main-logo").addClass("displayLogo");
-
-        $(".main-logo-fixt").addClass("displayLogoFix");
-    } else {
-        $(".main-logo").removeClass("displayLogo");
-        
-        $(".main-logo-fixt").removeClass("displayLogoFix");
-    }
-});
-</script>
-     
 </body>
 </html>
+
+
+
